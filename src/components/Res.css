@@ -1,0 +1,72 @@
+.search-bar input{
+    height: 2rem;
+    width: 20rem;
+    position: fixed;
+    top: 1%;
+    left: 35%;
+    padding-left: 5px;
+}
+
+
+.btns{
+    margin-top: 100px;
+    
+}
+
+@media only screen and (max-width: 600px) {
+.search-bar input{
+    position: fixed;
+    top: 10%;
+    left: 7%;
+}
+.btns{
+    margin-left: 5px;
+
+}
+}
+
+.coins-grid {
+    display: grid;
+    /* grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); Adjust the min and max width as needed */
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 12px; /* Adjust the gap between cards as needed */
+    width: 97%;
+    margin-left: 1.5%;
+    
+  }
+  
+  .ex-cards {
+    background-color:whitesmoke;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  
+  }
+  
+  .image img {
+    height: 80px;
+  }
+  
+  .name {
+    font-weight: bold;
+    color: black;
+    height: 75px;
+  }
+  
+  .price {
+    margin-top: 10px;
+    color: black;
+
+  }
+  
+  .rank {
+    margin-top: 10px;
+  }
+  .bg{
+    background-color: ;
+  }
+  
