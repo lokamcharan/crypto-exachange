@@ -35,7 +35,7 @@
     
   }
   
-  .ex-cards {
+  /* .ex-cards {
     background-color:whitesmoke;
     padding: 20px;
     border-radius: 10px;
@@ -45,7 +45,25 @@
     align-items: center;
     text-align: center;
   
+  } */
+  .ex-cards {
+    background-color: whitesmoke;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: transform 0.10s ease;
   }
+  
+  .ex-cards:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  }
+  
+
   
   .image img {
     height: 80px;
